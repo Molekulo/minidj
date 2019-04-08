@@ -1,0 +1,38 @@
+{
+  "name": "panique/mini",
+  "type": "project",
+  "description": "An extremely simple naked PHP application",
+  "keywords": [
+    "skeleton",
+    "boilerplate",
+    "naked",
+    "barebone",
+    "application"
+  ],
+  "homepage": "https://github.com/panique/mini",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Panique",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/panique/mini/issues",
+    "source": "https://github.com/panique/mini"
+  },
+  "require": {
+    "php": ">=7.0.*",
+    "ext-pdo": "*",
+    "illuminate/routing": "^5.7",
+    "illuminate/events": "^5.7"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "Application/"
+    }
+  }
+}
